@@ -6,6 +6,10 @@ on:
   push:
     branches: [documentation]
 
+defaults:
+  run:
+    working-directory: docusaurus
+
 jobs:
   checks:
     if: github.event_name != 'push'
