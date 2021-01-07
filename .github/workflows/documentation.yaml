@@ -64,4 +64,4 @@ jobs:
           else
           npm i
           fi
-          npx docusaurus deploy
+          GIT_USER=TomKlimovski yarn run publish-gh-pages
