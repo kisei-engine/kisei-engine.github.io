@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/kisei.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('intro.html')}>Introduction</Button>
-            <Button href={docUrl('doc2.html')}>Why Kisei?</Button>
+            <Button href={docUrl('whykisei.html')}>Why Kisei?</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -96,8 +96,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Traverse a Ruleset</h2>
+        <MarkdownBlock>Find the next hop. RESTful. Easy</MarkdownBlock>
       </div>
     );
 
